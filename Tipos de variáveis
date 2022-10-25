@@ -1,0 +1,11 @@
+faturamento_int = 1000
+print(type(faturamento_int))
+
+faturamento_float = 1000.00
+print(type(faturamento_float))
+
+faturamento_texto = '1.000'
+print(type(faturamento_texto))
+
+ganha_bonus_bool = True
+print(type(ganha_bonus_bool))
