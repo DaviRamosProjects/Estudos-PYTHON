@@ -1,0 +1,33 @@
+# Operações matemáticas
+
+#adição
+print(3 + 5)
+
+#subtração
+print(5 - 3)
+
+#divisão
+print(5 / 3)
+
+#multiplicação
+print(5 * 3)
+
+#mod (resto da divisão de 5 por 3)
+print(5 % 3)
+
+
+# Operações com strings
+
+#Concatenar
+print('O faturamento de pepsi da loja foi ' + '1000')
+
+# ou
+print('O faturamento de pepsi da loja foi', 1000
+
+# Verificação de texto
+print('@' in 'davi@gmail.com')
+
+
+# informações do usuário
+
+variável = input('Texto para o usuário')
