@@ -1,0 +1,9 @@
+faturamento = 100
+custo = 30
+lucro = faturamento - custo
+
+# .format()
+print('O faturamento foi de R$ {}. O custo foi de {}. E o lucro de {}.'.format(faturamento, custo, lucro))
+
+# f-string
+print(f'O faturamento foi de {faturamento}. O custo foi de {custo}. E o lucro de {lucro}')
