@@ -1,0 +1,40 @@
+variavel = 'produto promocional'
+
+produtos = ['tv',
+            'mouse',
+            variavel,
+            'teclado',
+            'monitor',
+            ]
+
+vendas = [100,
+          200,
+          300,
+          400,
+          500,
+          ]
+          
+# Adicionar produtos na lista no final
+produtos.append('notebook')
+
+# Remover itens da lista de duas maneiras
+item_removido = lista.pop(2)
+lista.remove(1)
+
+# Como substituir itens da lista
+produtos[1] = 'batata'
+
+# Como achar o índice de um ‘produtos’
+i = produtos.index('teclado')
+
+# Listas relacionadas
+print('O produto {} teve {} vendas.'.format(produtos[3], vendas[3]))
+
+# Você pode checar se existe um produtos na lista
+produto = input('Digite um produto:')
+
+if produto in produtos:
+  j = produtos.index(produto)
+  qtd_venda = vendas[j]
+  print('A quantidade de vendas de {} foi de {}.'.format(produto, qtd_venda))
+
