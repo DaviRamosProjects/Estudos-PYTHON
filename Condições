@@ -1,0 +1,26 @@
+meta_venda = 50000
+quantidade_vendida = 10000
+
+if quantidade_vendida >= meta_venda:
+    print('Parabéns, batemos a meta. Vendemos {} iPhones.'.format(quantidade_vendida))
+
+else:
+    print('Poxa não batemos a meta. Vendemos apenas {} iPhones'.format(quantidade_vendida))
+
+# Ainda podemos adicionar o elif para mais uma condição.
+
+# Comparadores
+
+# == igual
+# != diferente
+# > < maior ou menor (ainda da para colocar o igual)
+# in texto existe dentro de outro texto
+# not verifica o contrário da afirmação
+# OBS: se você não quiser fazer nada PASS
+
+# Se forem duas condições em simultâneo 'and'
+# Se for pelo menos uma 'or'
+
+# if faturamento != '':
+# é igual a if faturamento:
+# Se não der valor para o número pode botar (if 0:)
