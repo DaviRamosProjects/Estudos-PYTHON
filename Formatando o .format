@@ -1,0 +1,23 @@
+# formatações do .format()
+
+# Formatação: colocar dentro dos colchetes
+
+# :< Alinhar o texto à esquerda (se tiver espaço na tela para isso)
+# :> Alinhar o texto à direita (se tiver espaço na tela para isso)
+# :^ Alinha o texto ao centro (Se tiver espaço na tela para isso)
+# :+ Coloca o sinal sempre na frente do número (independente se é positivo ou negativo)
+# :, Coloca a vírgula como separador de milhar
+# :_ coloca o _ como separador de milhar
+# :e formato científico
+# :f número com quantidade fixa de casas decimais - {:.2f}
+# :x formato HEX minúscula (para cores)
+# :X formato HEX maiúscula (para cores)
+# :% formato percentual - {:.2%}
+
+# Formato de moeda - 'Custo - R${:,.2f}'
+
+# Para botar no formato brasileiro com ponto na separação de milhar.
+# Coloca a separação com _ e substitui com a .replace()
+
+# Função para arredondar
+# round(preco * imposto, 1)
