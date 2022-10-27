@@ -1,0 +1,16 @@
+produtos = ['apple tv', 'mac', 'Iphone x', 'iphone 11', 'ipad']
+novos_produtos = ['pitanga', 'carambola']
+
+vendas_produtos = [100, 1000, 500, 890, 750]
+
+# Juntar
+
+produtos.extend(novos_produtos)
+produtos2 = produtos + novos_produtos
+
+# Ordenar listas
+# Letras maiúsculas vem antes de minúsculas
+rodutos.sort()
+
+# Ordenar em ordem decrescente
+# produtos.sort(reverse)
