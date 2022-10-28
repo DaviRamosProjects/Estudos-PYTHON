@@ -1,0 +1,5 @@
+produtos = ['coca', 'pespi', 'guarana', 'sprite', 'fanta']
+producao = [1000, 12000, 13000, 5000, 250]
+
+for i in range(len(produtos)):
+    print('{} unidades produzidas de {}'.format(producao[i], produtos[i]))
