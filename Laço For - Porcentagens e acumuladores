@@ -1,0 +1,10 @@
+vendas = [1200, 300, 800, 1500, 1900, 2750, 400, 20, 23, 70, 90,
+          1100, 999, 900, 850, 870, 50, 1111, 120, 300, 450, 800]
+meta = 1000
+contador = 0
+
+for analise in vendas:
+    if analise >= meta:
+        contador += 1
+
+print('O percentual de pessoas que bateram a meta foi de {:.0%}'.format(contador / len(vendas)))
