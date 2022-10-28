@@ -27,8 +27,15 @@ produtos[1] = 'batata'
 # Como achar o índice de um ‘produtos’
 i = produtos.index('teclado')
 
+# Quando você receber informações juntas - Separando itens
+produtos_varejista = 'tv, geladeira, fogão, microondas'
+lista_varejista = produtos_varejista.split(', ')
+
 # Listas relacionadas
 print('O produto {} teve {} vendas.'.format(produtos[3], vendas[3]))
+
+# Printando de uma maneira diferente
+print('\n'.join(produtos))
 
 # Você pode checar se existe um produtos na lista
 produto = input('Digite um produto:')
@@ -37,4 +44,5 @@ if produto in produtos:
   j = produtos.index(produto)
   qtd_venda = vendas[j]
   print('A quantidade de vendas de {} foi de {}.'.format(produto, qtd_venda))
+  
 
