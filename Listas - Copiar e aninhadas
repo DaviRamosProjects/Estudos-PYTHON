@@ -1,0 +1,16 @@
+# copiar idependetemente - Alterar uma não altera outra.
+lista1 = [0, 1, 2, 3]
+lista2 = lista1.copy()
+# ou
+lista2 = lista1[:]
+
+# Listas dentro de listas (listas aninhadas)
+
+vendedores = ['Davi', 'João', 'Maria', 'José']
+produtos = ['iPhone', 'iPad']
+vendas = [
+    [100, 200],
+    [300, 500],
+    [50, 1000],
+    [900, 10],
+]
