@@ -1,0 +1,8 @@
+produtos = ['coca', 'pepsi', 'guarana', 'sprite', 'fanta']
+texto = 'davi@gmail.com'
+
+for produtos in produtos:
+    print('O produto é {}'.format(produtos))
+
+for ch in texto:
+    print(ch)
