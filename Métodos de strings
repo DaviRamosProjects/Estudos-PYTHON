@@ -1,0 +1,28 @@
+# Métodos de strings
+
+# .capitalize() -> coloca 1° letra maiúscula
+# .casefold() -> todas as letras em minúsculas
+# .title() -> primeira de cada palavra maiúscula
+# .upper() -> caixa alta
+# .count() -> conta um carcter no texto
+# Ex: print(texto.count('a'))
+
+# .startswith() -> verifica se começa com um valor específico
+# .endswith() -> verifica se o texto termina com um valor específico
+# .find() -> procura um texto dentro de outro e mostra a posição.
+# ex: print(nome.find('t'))
+
+# verificação:
+# .isalnum() -> verifica se é alfanumérico
+# .isalpha() -> verifica se é só letra
+# .isnumeric() -> verifica se é só número
+
+# replace() -> trocar uma coisa por outra
+# ex: print(email.replace('gmail', 'hotmail'))
+
+# .split() -> dividir antes e depois de uma coisa
+# ex: print(nome.split(' '))
+# .splitlines() -> divide o texto pelos 'enters'
+
+# .strip() -> retira caracteres indesejados. Padrão 'espaços'.
+# nome = '   davi antônio '
