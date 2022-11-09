@@ -1,0 +1,11 @@
+lista_compras = []
+
+while True:
+    produto = input('Digite o produto: ')
+    if not produto:
+        break
+    qtd = int(input('Digite a quantidade: '))
+    lista_compras.append([produto, qtd])
+
+
+print(lista_compras)
