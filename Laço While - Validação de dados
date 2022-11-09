@@ -1,0 +1,26 @@
+dados_cliente = []
+
+while True:
+    nome = input('Qual seu nome? ')
+    if len(nome) > 3:
+        break
+
+while True:
+    idade = int(input('Quantos anos você tem? '))
+    if 0 <= idade < 150:
+        break
+
+while True:
+    genero = input('Qual seu gênero? [m, f]')
+    if genero in ['m', 'f']:
+        break
+
+while True:
+    salario = float(input('Qual seu salário? '))
+    if salario > 0:
+        break
+
+while True:
+    estado_civil = input('Qual seu Estado Civil?[c,s,v,d] ')
+    if estado_civil in ['s', 'c', 'v', 'd']:
+        break
